@@ -1,0 +1,56 @@
+/* Styles for header and footer */
+header, footer {
+	background-color: #12ed95;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+/* Styles for main content */
+main {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 2em;
+}
+section {
+	margin-bottom: 2em;
+}
+h1, h2 {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	margin-top: 0;
+}
+nav {
+  position: absolute;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav ul {
+  
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+  }
+  
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
