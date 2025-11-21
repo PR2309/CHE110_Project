@@ -1,0 +1,57 @@
+
+body{
+    background-image: url(../img/PreventionBG.png);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgb(56, 55, 55); */
+}
+
+img{
+    border-radius: 10px;
+}
+
+section>p{
+    text-align: justify;
+}
+
+main{
+    background-color: hsla(162, 38%, 52%, 0.502);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto 2.5rem;
+    backdrop-filter: blur(10px);
+    padding-bottom: 5rem ;
+}
+
+main>section:first-of-type>p{
+    text-align: justify;
+    padding-left: 40px;
+}
+
+
+@media (max-width: 800px) {
+    /* section{
+        font-size: medium;
+    } */
+    img{
+        float: none !important;;
+        width: 80%;
+        max-height: 800px;
+    }
+}
+
+section>ul>li::before{
+    content:"➤";
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    margin-right: 6px;
+}
+
+section>ul>li:hover::before{
+    content:"★";
+    transform: scale(1.2);
+    /* color:white */
+}

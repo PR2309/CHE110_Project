@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/AboutBG.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgb(56, 55, 55); */
+}
+
+details>p{
+    text-align: justify;
+}
+
+main{
+    background-color: hsla(167, 58%, 70%, 0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto 2.5rem;
+    backdrop-filter: blur(10px);
+    padding-bottom: 5rem ;
+    animation: begin 1.5s ease-in-out forwards;
+}
+
+main>section:first-of-type>p{
+    text-align: justify;
+    padding-left: 40px;
+}
+
+@keyframes begin {
+    from{
+        opacity:0%;
+        overflow: hidden;
+    }
+    to{
+        opacity: 100%;
+        overflow: auto;
+    }
+}
+

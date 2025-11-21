@@ -1,0 +1,105 @@
+body{
+    background-image: url(../img/indexBG.webp);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgb(56, 55, 55); */
+}
+
+img{
+    border-radius: 10px;
+}
+
+section>p{
+    text-align: justify;
+}
+
+main{
+    background-color: hsl(39, 77%, 83%,0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto 2.5rem;
+    backdrop-filter: blur(10px);
+    padding-bottom: 5rem ;
+    animation: begin 1.5s ease-in-out forwards;
+}
+
+main>section:first-of-type>p{
+    text-align: justify;
+    padding-left: 40px;
+}
+
+@media (max-width: 1200px) {
+    div{
+        flex-direction: column !important;
+    }
+}
+@media (max-width: 800px) {
+    /* section{
+        font-size: medium;
+    } */
+    img{
+        float: none !important;;
+        width: 80%;
+        max-height: 800px;
+    }
+}
+main>section>a>img{
+    float: right;
+    /* padding: 2rem 0 0 0; */
+    margin-top: 2rem;
+    margin: 0 0.2rem;
+    max-width: 40vw;
+    max-height: 50vh;
+    min-width: 400px;
+    min-height: 150px;
+    transition: 0.5s ease-in-out;
+}
+main>section>a>img:hover{
+    box-shadow: 0 4px 80px rgb(0, 0, 0);
+    border-radius: 50px;
+    filter: blur(10%);
+}
+
+section:last-child>div>a{ /* #Page0 */
+    text-decoration: none;
+    color:black;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    width:100px;
+    height: 20px;
+    transition: 0.8s ease-in-out;
+    margin: 5rem;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+/* section:last-child>div>a:hover{ */
+#Page0:hover{
+    background-color: cyan;
+    color:blue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.811);
+    /* margin: 1.8rem 5rem 3.2rem 5rem; */
+}
+
+div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-self: center;
+}
+
+@keyframes begin {
+    from{
+        opacity:0%;
+        overflow: hidden;
+    }
+    to{
+        opacity: 100%;
+        overflow: auto;
+    }
+}
+

@@ -1,71 +1,157 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    	<meta http-equiv="refresh" content="10">
-	<title>Ecosystem Benefits</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<header>
-		<h1><strong>Ecosystem</strong></h1>
-	</header>
-	<nav>
-	    <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Benefits.html">Benefits</a></li>
-            <li><a href="Hazards.html">Hazards</a></li>
-            <li><a href="Types.html">Types</a></li>
-            <li><a href="Prevention.html">Prevention</a></li>
-            <li><a href="About.html">About</a></li>
+    <head>
+        <meta charset="UTF-8" data-comment="Specifies the character encoding"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" data-comment="For IE compatibility"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" data-comment="Configures viewpoint for responsive design"/>
+        <meta name="mobile-web-app-capable" content="yes" data-comment="Behave more like a native iOS app when added to the home screen"/>
+        <meta name="theme-color" content="#ccccc7" data-comment="Used by Chrome, Firefox OS, and opera to change the browser address bar"/>
+        <meta name="msapplication-TileColor" content="#00aba9" data-comment="Used by windows 8, 8.1, and 10 for the start menu tiles"/>
+        <meta http-equiv="refresh" content="360" data-comment="Meta tag to refresh the page every 360 seconds=1Hour"/>
+
+        <title>Ecosystem Benefits</title>
+
+        <!-- Custom CSS & JS files-->
+        <link rel="stylesheet" href="Style/style.css" data-comment="Custom Stylesheets"/>
+        <link rel="stylesheet" href="Style/index.css" data-comment="Custom Stylesheets"/>
+
+        <!-- Favicon -->
+        <link rel="icon" href="img/logo.png" type="image/svg+xml" data-comment="Favicon for modern browsers (SVG format)"/>
+        <link rel="icon" href="img/logo.png" type="image/x-icon" data-comment="Favicon fallback target older browsers like IE 10 and lower (ICO/PNG format)"/>
+        <link rel="apple-touch-icon" href="img/logo.png" data-comment="Favicon for Apple Touch Icon (iOS home screen)"/>
+        <link rel="mask-icon" href="img/logo.png" color="#193860" data-comment="Favicon for Safari pinned tabs (macOS)"/>
+
+        <!-- SEO Meta Tags -->
+        <meta name="author" content="Piyush Anand" data-comment="Author of Web Page"/>
+        <meta name="description" content="Welcome to our Ecosystem project. Learn about ecosystems, their types, benefits, hazards, and how to protect them." data-comment="Description of web page for SEO"/>
+        <meta name="keywords" content="ecosystem, ecosystem project, types of ecosystems, ecosystem benefits, ecosystem hazards, environmental awareness" data-comment="Keywords of web page for SEO"/>
+        <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self';" data-comment="Prevents from being embedded in an iframe to avoid clickjacking attacks"/>
+        <meta name="robots" content="index, follow" data-comment="To tell crawlers to crawl in this page"/>
+        <link rel="canonical" href="https://pr2309.github.io/CHE110_Project/" data-comment="tells the main link of site avoiding multiple ranking of sublinks"/>
+
+        <!-- OpenGraph Meta Tags - For Social Media Previews -->
+        <meta property="og:title" content="Ecosystem – Explore Types, Benefits & Protection" data-comment="Title of your webpage"/>
+        <meta property="og:description" content="Discover the world of ecosystems, understand their importance, benefits, hazards, and ways to conserve them." data-comment="Short description of your page"/>
+        <meta property="og:url" content="https://pr2309.github.io/CHE110_Project/" data-comment="site_url"/>
+        <meta property="og:type" content="website" data-comment="website_content_type"/>
+        <meta property="og:site_name" content="Ecosystem Project" data-comment="site_name"/>
+        <meta property="og:image" content="https://pr2309.github.io/CHE110_Project/img/logo.png" data-comment="preview_image_link - visble when shared"/>
+        <meta property="og:image:alt" content="Project Banner" data-comment="Alternate text if preview isn't displayed"/>
+        <meta property="og:image:width" content="1200" data-comment="width of preview image 1200px recommended"/>
+        <meta property="og:image:height" content="630" data-comment="height of preview image 630px recommended"/>
+        <meta property="og:locale" content="en_US" data-comment="language and region: here English(United States)"/>
+        <meta property="og:locale:alternate" content="en_IN" data-comment="language and region: here English(India)"/>
+
+        <!-- Twitter Meta Tags - For Twitter Previews -->
+        <meta name="twitter:card" content="summary_large_image" data-comment="Tells the type of presentation, eg: summary, summary_large_image, app, player"/>
+        <meta name="twitter:title" content="Ecosystem – Explore Types, Benefits & Protection" data-comment="Title for Twitter card"/>
+        <meta name="twitter:description" content="Learn about different ecosystems, their benefits, potential hazards, and how to protect the environment effectively." data-comment="Description for Twitter card"/>
+        <meta name="twitter:image" content="https://pr2309.github.io/CHE110_Project/img/logo.png" data-comment="preview image url"/>
+        <meta name="twitter:image:alt" content="Project Banner" data-comment="Alternate text if preview isn't displayed"/>
+        <meta name="twitter:image:width" content="1200" data-comment="width of preview image 1200px recommended"/>
+        <meta name="twitter:image:height" content="630" data-comment="height of preview image 630px recommended"/>
+    </head>
+    <body>
+        <header>
+            <h1><strong>Ecosystem</strong></h1>
+        </header>
+
+        <nav style="margin:6.5rem 0 5rem 0;">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pages/Benefits.html">Benefits</a></li>
+                <li><a href="Pages/Hazards.html">Hazards</a></li>
+                <li><a href="Pages/Types.html">Types</a></li>
+                <li><a href="Pages/Prevention.html">Prevention</a></li>
+                <li><a href="Pages/About.html">About</a></li>
             </ul>
-	  </nav>
-	<main style="align-content: center;">
-		<section><br><br>
-			<h2>Introduction</h2>
-			<p>Ecosystems are essential to human life and the health of the planet. They provide us with a variety of benefits, including clean air and water, food, medicine, and recreation. However, many ecosystems are under threat from human activities such as deforestation, pollution, and climate change.</p>
-		</section>
-		<section>
-			<img src="img/Types of ecosystems.png" alt="Types" width="400" height="150" style="
-			float: right;">
-			<h2>Types of Ecosystems</h2>
-			<ul>
-				<li>Forests</li>
-				<li>Grasslands</li>
-				<li>Wetlands</li>
-				<li>Oceans and coasts</li>
-				<li>Mountains</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Ecosystem Benefits</h2>
-			<ul>
-				<li>Clean air and water</li>
-				<li>Food production</li>
-				<li>Medicine and natural remedies</li>
-				<li>Climate regulation</li>
-				<li>Biodiversity and habitat</li>
-				<li>Recreation and tourism</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Threats to Ecosystems</h2>
-			<ul>
-				<li>Deforestation</li>
-				<li>Pollution</li>
-				<li>Climate change</li>
-				<li>Overfishing</li>
-				<li>Urbanization</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Overview</h2>
-			<img src="img/Ecosystem background.png" alt="Overview" width="700" height="400">
-		</section>
-	</main>
-	<footer>
-		<p>&copy;2023 Piyush Anand All rights are reserved.</p>
-	</footer>
-	<script src="script.js"></script>
-</body>
+        </nav>
+
+        <main>
+            <section><br><br>
+                <h2>Introduction</h2>
+                <p style="text-align: justify;">Ecosystems are essential to human life and the health of the planet. They provide us with a variety of benefits, including clean air and water, food, medicine, and recreation. However, many ecosystems are under threat from human activities such as deforestation, pollution, and climate change.</p>
+            </section>
+
+            <section>
+                <a href="Pages/Types.html" title="Types Of Ecosystem">
+                    <img src="img/Types of ecosystems.png" alt="Types Of Ecosystem"/>
+                </a>
+                <h2>Types&nbsp;of&nbsp;Ecosystems</h2>
+                <ul>
+                    <li>Forests</li>
+                    <li>Grasslands</li>
+                    <li>Wetlands</li>
+                    <li>Oceans and coasts</li>
+                    <li>Mountains</li>
+                </ul>
+            </section>
+
+            <section>
+                <a href="Pages/Benefits.html" title="Benefits Of Ecosystem">
+                    <img src="img/Benefits of ecosystem.png" alt="Benefits Of Ecosystem"/>
+                </a>
+                <h2>Benefits&nbsp;of&nbsp;Ecosystem</h2>
+                <ul>
+                    <li>Clean air and water</li>
+                    <li>Food production</li>
+                    <li>Medicine and natural remedies</li>
+                    <li>Climate regulation</li>
+                    <li>Biodiversity and habitat</li>
+                    <li>Recreation and tourism</li>
+                </ul>
+            </section>
+
+            <section>
+                <a href="Pages/Hazards.html" title="Hazards To Ecosystem">
+                    <img src="img/Threats to ecosystem.png" alt="Threats To Ecosystem"/>
+                </a>
+                <h2>Threats&nbsp;to&nbsp;Ecosystems</h2>
+                <ul>
+                    <li>Deforestation</li>
+                    <li>Pollution</li>
+                    <li>Climate change</li>
+                    <li>Overfishing</li>
+                    <li>Urbanization</li>
+                </ul>
+            </section>
+            <section>
+                <a href="Pages/Prevention.html" title="Ecosystem Protection">
+                    <img src="img/Prevention.png" alt="Ecosystem Protection"/>
+                </a>
+                <h2>Protecting&nbsp;Ecosystems</h2>
+                <ul>
+                    <li>Conservation efforts</li>
+                    <li>Sustainable practices</li>
+                    <li>Pollution reduction</li>
+                    <li>Climate action</li>
+                    <li>Education and awareness</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Get Involved</h2>
+                <p>Everyone can play a role in protecting ecosystems. Here are some ways you can get involved:</p>
+                <ul>
+                    <li>Reduce, reuse, and recycle to minimize waste.</li>
+                    <li>Support conservation organizations and initiatives.</li>
+                    <li>Participate in local clean-up events.</li>
+                    <li>Advocate for policies that protect the environment.</li>
+                    <li>Educate others about the importance of ecosystems.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>More</h2>
+                <div>
+                    <a href="Pages/More.html" id="Page0" title="Next Page">Know&nbsp;More</a>
+                    <img src="img/Ecosystem background.png" alt="Overview" width="700" height="400" />
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy;2023 Piyush Anand All rights are reserved.</p>
+        </footer>
+    </body>
 </html>

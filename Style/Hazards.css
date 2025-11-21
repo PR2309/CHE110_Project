@@ -1,0 +1,64 @@
+body{
+    background-image: url(../img/HazardsBG.png);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgb(56, 55, 55); */
+}
+
+section>p{
+    text-align: justify;
+    padding-inline: 40px;
+    max-width: 50vw;
+}
+
+img{
+    border-radius: 10px;
+}
+
+main{
+    background-color: hsla(41, 75%, 77%, 0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto 2.5rem;
+    backdrop-filter: blur(10px);
+    padding-bottom: 5rem;
+    padding-inline: 20px;
+}
+
+main>section:first-of-type>p{
+    text-align: justify;
+    padding-left: 40px;
+}
+
+@media (max-width: 800px) {
+    main>section>img:hover{
+        box-shadow: 0 4px 80px rgb(0, 0, 0);
+        border-radius: 0px;
+        filter: blur(10%);
+        transform: none !important;
+    }
+}
+main>section>img{
+    float: right;
+    /* padding: 2rem 0 0 0; */
+    margin: 0 0.2rem;
+    margin-top: 2rem;
+    max-width: 40vw;
+    max-height: 50vh;
+    min-width: 400px;
+    min-height: 150px;
+    transition: 0.5s ease-in-out;
+    transform-origin: top right;
+}
+main>section>img:hover{
+    box-shadow: 0 4px 80px rgb(0, 0, 0);
+    border-radius: 0px;
+    filter: blur(10%);
+    transform: scale(1.5);
+}
+#block{
+    max-width:100%;
+}

@@ -1,0 +1,72 @@
+body{
+    background-image: url(../img/TypesBG.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgb(56, 55, 55); */
+}
+
+section>ul>li{
+    width: 19.5rem;
+}
+section>ul{
+    display: flex;
+    flex-direction: column;
+}
+section>ul>li>a{
+    text-decoration: none;
+    width:100vw;
+}
+section>ul>li>a:hover{
+    color:grey
+}
+section>ul>li>a>img{
+    width:20px;
+    height:12px;
+    margin: 0.7rem 0.5rem auto 2rem;
+    transform-origin:top left;
+    border-radius: 5px;
+    float:right;
+}
+section>ul>li>a>img:hover{
+    border-radius: 0px;
+    /* width: 20vw; */
+    transform: scale(10); 
+    transition: 0.3s ease-in-out;
+}
+
+section>ul>li::before{
+    content:"★";
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+}
+
+section>ul>li:hover::before{
+    transform: rotate(180deg);
+    color:grey
+}
+p{
+    text-align: justify;
+}
+main{
+    background-color: hsl(39, 77%, 83%,0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto 2.5rem;
+    backdrop-filter: blur(10px);
+    padding-bottom: 5rem ;
+    padding: 50px;
+}
+@media (max-width: 800px) {
+    /* section{
+        font-size: medium;
+    } */
+    section>ul>li>a>img{
+        transform-origin: top right;
+    }
+    section>ul>li>a>img:hover{
+        transform: scale(500%);
+    }
+}

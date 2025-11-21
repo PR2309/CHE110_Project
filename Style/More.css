@@ -1,0 +1,63 @@
+body{
+    background-image: url(../img/index2BG.png);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgb(56, 55, 55); */
+}
+p{
+    text-align: justify;
+}
+#backBtn{
+    position: fixed;
+    z-index: 1;
+    border-radius: 10rem;
+    text-decoration: none;
+    color: white;
+    background-image: radial-gradient(rgba(141, 139, 139, 0.763), rgba(207, 207, 207, 0.763));
+    padding: 0.9rem 1.1rem;
+    top: 5%;
+    left: 4%;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#backBtn:hover{
+    padding: 1.1rem 1.3rem;
+    background-image: radial-gradient(rgba(0, 255, 255, 0.605), rgba(0, 191, 255, 0.605));
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.811);
+}
+main{
+    background-color: hsl(39, 77%, 83%,0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto 2.5rem;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(10px);
+    padding-bottom: 5rem ;
+    padding: 50px;
+}
+
+#Page0{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(93, 91, 91);
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    width:100px;
+    height: 20px;
+    transition: 0.8s ease-in-out;
+    margin: 5rem;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    left:18%;
+}
+/* section:last-child>div>a:hover{ */
+#Page0:hover{
+    background-color: cyan;
+    color:blue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.811);
+    /* margin: 1.8rem 5rem 3.2rem 5rem; */
+}
