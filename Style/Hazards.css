@@ -1,15 +1,9 @@
 body{
-    background-image: url(../img/HazardsBG.png);
-    background-repeat: none;
+    background-image: url(../img/HazardsBG.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     /* background-color: rgb(56, 55, 55); */
-}
-
-section>p{
-    text-align: justify;
-    padding-inline: 40px;
-    max-width: 50vw;
 }
 
 img{
@@ -28,37 +22,41 @@ main{
     padding-inline: 20px;
 }
 
-main>section:first-of-type>p{
-    text-align: justify;
-    padding-left: 40px;
+section:last-child>p{
+    width: auto;
+    max-width:100%;
 }
 
-@media (max-width: 800px) {
-    main>section>img:hover{
-        box-shadow: 0 4px 80px rgb(0, 0, 0);
-        border-radius: 0px;
-        filter: blur(10%);
-        transform: none !important;
-    }
+section>p{
+    text-align: justify;
+    padding-inline: 40px;
+    margin-inline:1rem;
+    width: 40vw;
 }
+
 main>section>img{
     float: right;
     /* padding: 2rem 0 0 0; */
-    margin: 0 0.2rem;
+    margin: 0.5 0.8rem;
     margin-top: 2rem;
-    max-width: 40vw;
-    max-height: 50vh;
-    min-width: 400px;
-    min-height: 150px;
+    max-width: 50vw;
+    max-height: 60vh;
     transition: 0.5s ease-in-out;
     transform-origin: top right;
 }
 main>section>img:hover{
     box-shadow: 0 4px 80px rgb(0, 0, 0);
     border-radius: 0px;
-    filter: blur(10%);
     transform: scale(1.5);
 }
-#block{
-    max-width:100%;
+
+@media (max-width: 1100px) {
+    main>section>img{
+        min-width:80vw;
+        margin-bottom: 20px;
+        height:auto;
+    }
+    main>section>img:hover{
+        transform: none !important;
+    }
 }

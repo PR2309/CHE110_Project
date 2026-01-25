@@ -9,17 +9,17 @@
         <meta name="msapplication-TileColor" content="#00aba9" data-comment="Used by windows 8, 8.1, and 10 for the start menu tiles"/>
         <meta http-equiv="refresh" content="360" data-comment="Meta tag to refresh the page every 360 seconds=1Hour"/>
 
-        <title>Ecosystem Benefits</title>
+        <title>Ecosystem</title>
 
         <!-- Custom CSS & JS files-->
-        <link rel="stylesheet" href="Style/style.css" data-comment="Custom Stylesheets"/>
-        <link rel="stylesheet" href="Style/index.css" data-comment="Custom Stylesheets"/>
+        <link rel="stylesheet" href="./Style/style.css" data-comment="Custom Stylesheets"/>
+        <link rel="stylesheet" href="./Style/index.css" data-comment="Custom Stylesheets"/>
 
         <!-- Favicon -->
-        <link rel="icon" href="img/logo.png" type="image/svg+xml" data-comment="Favicon for modern browsers (SVG format)"/>
-        <link rel="icon" href="img/logo.png" type="image/x-icon" data-comment="Favicon fallback target older browsers like IE 10 and lower (ICO/PNG format)"/>
-        <link rel="apple-touch-icon" href="img/logo.png" data-comment="Favicon for Apple Touch Icon (iOS home screen)"/>
-        <link rel="mask-icon" href="img/logo.png" color="#193860" data-comment="Favicon for Safari pinned tabs (macOS)"/>
+        <link rel="icon" href="./img/logo.png" type="image/svg+xml" data-comment="Favicon for modern browsers (SVG format)"/>
+        <link rel="icon" href="./img/logo.png" type="image/x-icon" data-comment="Favicon fallback target older browsers like IE 10 and lower (ICO/PNG format)"/>
+        <link rel="apple-touch-icon" href="./img/logo.png" data-comment="Favicon for Apple Touch Icon (iOS home screen)"/>
+        <link rel="mask-icon" href="./img/logo.png" color="#193860" data-comment="Favicon for Safari pinned tabs (macOS)"/>
 
         <!-- SEO Meta Tags -->
         <meta name="author" content="Piyush Anand" data-comment="Author of Web Page"/>
@@ -27,6 +27,7 @@
         <meta name="keywords" content="ecosystem, ecosystem project, types of ecosystems, ecosystem benefits, ecosystem hazards, environmental awareness" data-comment="Keywords of web page for SEO"/>
         <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self';" data-comment="Prevents from being embedded in an iframe to avoid clickjacking attacks"/>
         <meta name="robots" content="index, follow" data-comment="To tell crawlers to crawl in this page"/>
+        <link rel="manifest" href="../manifest.json" data-comment="An information file for Browser and Progressive Web Apps"/>
         <link rel="canonical" href="https://pr2309.github.io/CHE110_Project/" data-comment="tells the main link of site avoiding multiple ranking of sublinks"/>
 
         <!-- OpenGraph Meta Tags - For Social Media Previews -->
@@ -56,26 +57,40 @@
             <h1><strong>Ecosystem</strong></h1>
         </header>
 
-        <nav style="margin:6.5rem 0 5rem 0;">
+        <nav id="#navbar" style="margin:6.5rem 0 5rem 0 !important;">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Pages/Benefits.html">Benefits</a></li>
-                <li><a href="Pages/Hazards.html">Hazards</a></li>
-                <li><a href="Pages/Types.html">Types</a></li>
-                <li><a href="Pages/Prevention.html">Prevention</a></li>
-                <li><a href="Pages/About.html">About</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./Pages/Benefits.html">Benefits</a></li>
+                <li><a href="./Pages/Hazards.html">Hazards</a></li>
+                <li><a href="./Pages/Types.html">Types</a></li>
+                <li><a href="./Pages/Prevention.html">Prevention</a></li>
+                <li><a href="./Pages/Key-Terms.html">Key&nbsp;Terms</a></li>
+                <li><a href="./Pages/About.html">About</a></li>
             </ul>
         </nav>
 
+        <button id="idBtn" title="All Types" style="top:25px;">🗒</button>
+        <ul id="idList" style="top:80px;">
+            <li><a href="#navbar" title="Back to navigation">Index</a></li>
+            <li><a href="#introduction" title="Introduction">Introduction</a></li>
+            <li><a href="#types" title="Types of Ecosystem">Ecosystem Types</a></li>
+            <li><a href="#benefits" title="Benefits of Ecosystem">Ecosystem Benefits</a></li>
+            <li><a href="#threats" title="Threats to Ecosystem">Ecosystem Threats</a></li>
+            <li><a href="#prevention" title="Protection of Ecosystem">Prevention Ecosystem</a></li>
+            <li><a href="#involvement" title="Get Involved">Involvement</a></li>
+            <li><a href="#more" title="Know More">Know More</a></li>
+            <li><a href="#footer" title="Author and Credits">Credits</a></li>
+        </ul>
+
         <main>
-            <section><br><br>
+            <section id="#introduction"><br><br>
                 <h2>Introduction</h2>
                 <p style="text-align: justify;">Ecosystems are essential to human life and the health of the planet. They provide us with a variety of benefits, including clean air and water, food, medicine, and recreation. However, many ecosystems are under threat from human activities such as deforestation, pollution, and climate change.</p>
             </section>
 
-            <section>
-                <a href="Pages/Types.html" title="Types Of Ecosystem">
-                    <img src="img/Types of ecosystems.png" alt="Types Of Ecosystem"/>
+            <section id="types">
+                <a href="./Pages/Types.html" title="Types Of Ecosystem">
+                    <img src="./img/Types_Of_Ecosystems.webp" alt="Types Of Ecosystem"/>
                 </a>
                 <h2>Types&nbsp;of&nbsp;Ecosystems</h2>
                 <ul>
@@ -87,9 +102,9 @@
                 </ul>
             </section>
 
-            <section>
-                <a href="Pages/Benefits.html" title="Benefits Of Ecosystem">
-                    <img src="img/Benefits of ecosystem.png" alt="Benefits Of Ecosystem"/>
+            <section id="benefits">
+                <a href="./Pages/Benefits.html" title="Benefits Of Ecosystem">
+                    <img src="./img/Benefits_Of_Ecosystem.webp" alt="Benefits Of Ecosystem"/>
                 </a>
                 <h2>Benefits&nbsp;of&nbsp;Ecosystem</h2>
                 <ul>
@@ -102,9 +117,9 @@
                 </ul>
             </section>
 
-            <section>
-                <a href="Pages/Hazards.html" title="Hazards To Ecosystem">
-                    <img src="img/Threats to ecosystem.png" alt="Threats To Ecosystem"/>
+            <section id="threats">
+                <a href="./Pages/Hazards.html" title="Hazards To Ecosystem">
+                    <img src="./img/Threats_to_Ecosystem.webp" alt="Threats To Ecosystem"/>
                 </a>
                 <h2>Threats&nbsp;to&nbsp;Ecosystems</h2>
                 <ul>
@@ -115,9 +130,9 @@
                     <li>Urbanization</li>
                 </ul>
             </section>
-            <section>
-                <a href="Pages/Prevention.html" title="Ecosystem Protection">
-                    <img src="img/Prevention.png" alt="Ecosystem Protection"/>
+            <section id="prevention">
+                <a href="./Pages/Prevention.html" title="Ecosystem Protection">
+                    <img src="./img/Prevention.webp" alt="Ecosystem Protection"/>
                 </a>
                 <h2>Protecting&nbsp;Ecosystems</h2>
                 <ul>
@@ -129,7 +144,7 @@
                 </ul>
             </section>
 
-            <section>
+            <section id="involvement">
                 <h2>Get Involved</h2>
                 <p>Everyone can play a role in protecting ecosystems. Here are some ways you can get involved:</p>
                 <ul>
@@ -141,17 +156,21 @@
                 </ul>
             </section>
 
-            <section>
+            <section id="more"><br/><br/>
                 <h2>More</h2>
                 <div>
-                    <a href="Pages/More.html" id="Page0" title="Next Page">Know&nbsp;More</a>
-                    <img src="img/Ecosystem background.png" alt="Overview" width="700" height="400" />
+                    <div>
+                        <p>Ecosystems are deeply interconnected systems where plants, animals, microorganisms, and humans depend on one another for survival. Understanding how ecosystems function helps us recognize the impact of our actions on nature and encourages responsible decision-making. From land-based ecosystems like forests, mountains, and alpine regions to water-based ecosystems such as freshwater, marine, estuarine, and aquaculture systems, each plays a unique role in maintaining ecological balance.</p>
+                        <p>Exploring ecosystems in greater detail allows us to learn about biodiversity, natural cycles, climate regulation, and sustainable resource use. By gaining this knowledge, we can better protect ecosystems, reduce environmental damage, and contribute to a healthier planet for future generations.</p>
+                        <a href="./Pages/More.html" id="Page0" title="Next Page">Know&nbsp;More</a>
+                    </div>
+                    <img id="moreImg" src="./img/Ecosystem_Background.webp" alt="Overview" width="700" height="400" />
                 </div>
             </section>
         </main>
 
-        <footer>
-            <p>&copy;2023 Piyush Anand All rights are reserved.</p>
+        <footer id="footer">
+            <p>&copy;2023 All Rights Reserved<br/>Piyush Anand, Baibhav Sinha, Khushi Sinha.</p>
         </footer>
     </body>
 </html>

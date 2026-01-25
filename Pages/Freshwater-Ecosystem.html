@@ -14,7 +14,7 @@
       <!-- Custom CSS & JS files-->
       <link rel="stylesheet" href="../Style/style.css" data-comment="Custom Stylesheets"/>
       <link rel="stylesheet" href="../Style/TypesPages.css" data-comment="Custom Stylesheets"/>
-      <!-- <script src="app.js" defer data-comment=" Custom JavaScript"></script> -->
+      <!-- <script src="./app.js" defer data-comment=" Custom JavaScript"></script> -->
 
       <!-- Favicon -->
       <link rel="icon" href="../img/logo.png" type="image/svg+xml" data-comment="Favicon for modern browsers (SVG format)"/>
@@ -28,11 +28,12 @@
 		<meta name="keywords" content="freshwater ecosystem, types of freshwater, rivers, lakes, ponds, wetlands, ecosystem conservation, aquatic plants, aquatic animals" data-comment="Keywords of web page for SEO"/>
 		<meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self';" data-comment="Prevents from being embedded in an iframe to avoid clickjacking attacks"/>
 		<meta name="robots" content="index, follow" data-comment="To tell crawlers to crawl in this page"/>
-		<!-- <link rel="manifest" href="/manifest.json" data-comment="For SEO and Progressive Web Apps"/> -->
+		<link rel="manifest" href="../manifest.json" data-comment="An information file for Browser and Progressive Web Apps"/>
 		<link rel="canonical" href="https://pr2309.github.io/CHE110_Project/Pages/Freshwater-Ecosystem.html" data-comment="tells the main link of site avoiding multiple ranking of sublinks"/>
 
 		<!-- SEO Multilingual Versions Tags -->
 		<link rel="alternate" hreflang="en" href="https://pr2309.github.io/CHE110_Project/Pages/Freshwater-Ecosystem.html"/>
+		<link rel="alternate" hreflang="x-default" href="https://pr2309.github.io/CHE110_Project/Pages/Freshwater-Ecosystem.html"/>
 		<!-- <link rel="alternate" hreflang="hi(main_Language_code)" href="URL_of_main_site"/> -->
 
 		<!-- OpenGraph Meta Tags - For Social Media Previews -->
@@ -41,7 +42,7 @@
 		<meta property="og:url" content="https://pr2309.github.io/CHE110_Project/Pages/Freshwater-Ecosystem.html" data-comment="site_url"/>
 		<meta property="og:type" content="website" data-comment="website_content_type"/>
 		<meta property="og:site_name" content="Ecosystem Project" data-comment="site_name"/>
-		<meta property="og:image" content="https://pr2309.github.io/CHE110_Project/img/FreshwaterBG.jpg" data-comment="preview_image_link - visble when shared"/>
+		<meta property="og:image" content="https://pr2309.github.io/CHE110_Project/img/FreshwaterBG.webp" data-comment="preview_image_link - visble when shared"/>
 		<meta property="og:image:alt" content="Freshwater Ecosystem Page Banner" data-comment="Alternate text if preview isn't displayed"/>
 		<meta property="og:image:width" content="1200" data-comment="width of preview image 1200px recommended"/>
 		<meta property="og:image:height" content="630" data-comment="height of preview image 630px recommended"/>
@@ -53,45 +54,70 @@
     <meta name="twitter:card" content="summary_large_image" data-comment="Tells the type of presentation, eg: summary, summary_large_image, app, player"/>
     <meta name="twitter:title" content="Freshwater Ecosystem – Types, Importance & Conservation" data-comment="title for Twitter card"/>
     <meta name="twitter:description" content="Understand freshwater ecosystems—their types, biodiversity, environmental threats, and conservation efforts." data-comment="description for Twitter card"/>
-    <meta name="twitter:image" content="https://pr2309.github.io/CHE110_Project/img/FreshwaterBG.jpg" data-comment="preview image url"/>
+    <meta name="twitter:image" content="https://pr2309.github.io/CHE110_Project/img/FreshwaterBG.webp" data-comment="preview image url"/>
     <meta name="twitter:image:alt" content="Freshwater Ecosystem Page Banner" data-comment="Alternate text if preview isn't displayed"/>
     <meta name="twitter:image:width" content="1200" data-comment="width of preview image 1200px recommended"/>
     <meta name="twitter:image:height" content="630" data-comment="height of preview image 630px recommended"/>
     <!-- <meta name="twitter:site" content="@YourTwitterHandle" data-comment="Twitter handle of website"/> -->
     <!-- <meta name="twitter:creator" content="@YourTwitterHandle" data-comment="Twitter handle of content creator"/> -->
   </head>
-  <body style="background-image: url(../img/FreshwaterBG.jpg);">
+
+  <body style="background-image: url(../img/FreshwaterBG.webp);">
     <header>
       <h1><strong>Ecosystem</strong></h1>
       <h3>Freshwater&nbsp;Ecosystem<br/><small><code>(Types&nbsp;of&nbsp;Ecosystem)</code></small></h3>
     </header>
 
-    <nav>
+    <nav id="navbar">
       <ul>
         <li><a href="../index.html">Home</a></li>
-        <li><a href="Benefits.html">Benefits</a></li>
-        <li><a href="Hazards.html">Hazards</a></li>
-        <li><a href="Types.html">Types</a></li>
-        <li><a href="Prevention.html">Prevention</a></li>
-        <li><a href="About.html">About</a></li>
+        <li><a href="./Benefits.html">Benefits</a></li>
+        <li><a href="./Hazards.html">Hazards</a></li>
+        <li><a href="./Types.html">Types</a></li>
+        <li><a href="./Prevention.html">Prevention</a></li>
+        <li><a href="./Key-Terms.html">Key&nbsp;Terms</a></li>
+        <li><a href="./About.html">About</a></li>
       </ul>
     </nav>
+
     <a href="./Types.html" id="backBtn" title="All Types">↩</a>
-    <a href="#" id="menuBtn" title="All Types">☰</a>
+    <button id="menuBtn" title="All Types">☰</button>
     <ul id="menuList">
       <li><a href="./Forest-Ecosystem.html" title="Forest Ecosystem">Forest Ecosystem</a></li>
       <li><a href="./Grassland-Ecosystem.html" title="Grassland Ecosystem">Grassland Ecosystem</a></li>
       <li><a href="./Desert-Ecosystem.html" title="Desert Ecosystem">Desert Ecosystem</a></li>
+      <li><a href="./Mountain-Ecosystem.html" title="Mountain Ecosystem">Mountain Ecosystem</a></li>
+      <li><a href="./Alpine-Ecosystem.html" title="Alpine Ecosystem">Alpine Ecosystem</a></li>
       <li><a href="./Tundra-Ecosystem.html" title="Tundra Ecosystem">Tundra Ecosystem</a></li>
+      <li><a href="./Polar-Ecosystem.html" title="Polar Ecosystem">Polar Ecosystem</a></li>
       <li><a href="./Marine-Ecosystem.html" title="Marine Ecosystem">Marine Ecosystem</a></li>
+      <li><a href="./Estuarine-Ecosystem.html" title="Estuarine Ecosystem">Estuarine Ecosystem</a></li>
       <li><a href="./Agricultural-Ecosystem.html" title="Agriculture Ecosystem">Agricultural Ecosystem</a></li>
+      <li><a href="./Aquaculture-Ecosystem.html" title="Aquaculture Ecosystem">Aquaculture Ecosystem</a></li>
+      <li><a href="./Greenhouse-Ecosystem.html" title="Greenhouse Ecosystem">Greenhouse Ecosystem</a></li>
       <li><a href="./Urban-Ecosystem.html" title="Urban Ecosystem">Urban Ecosystem</a></li>
       <li><a href="./Industrial-Ecosystem.html" title="Industrial Ecosystem">Industrial Ecosystem</a></li>
     </ul>
 
+    <button id="idBtn" title="Contents">🗒</button>
+    <ul id="idList">
+      <li><a href="#navbar" title="Back to navigation">Index</a></li>
+      <li><a href="#introduction" title="Introduction">Introduction</a></li>
+      <li><a href="#types" title="Types of Freshwater Ecosystems">Types</a></li>
+      <li><a href="#flora" title="Flora">Flora</a></li>
+      <li><a href="#fauna" title="Fauna">Fauna</a></li>
+      <li><a href="#human-impact" title="Human Impact">Human Impact</a></li>
+      <li><a href="#conservation" title="Conservation">Conservation</a></li>
+      <li><a href="#importance" title="Importance of Freshwater">Importance</a></li>
+      <li><a href="#fun-facts" title="Fun Facts about Freshwater">Fun Facts</a></li>
+      <li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
+      <li><a href="#references" title="References">References</a></li>
+      <li><a href="#footer" title="Author and Credits">Credits</a></li>
+    </ul>
+
     <main><br/><br/>
       <section id="introduction">
-        <img src="../img/Freshwater_Ecosystem.png" alt="Freshwater Ecosystem" width="400" height="200" style="float: right; margin-left: 5%;"/>
+        <img src="../img/Freshwater_Ecosystem.webp" alt="Freshwater Ecosystem" width="400" height="200" style="float: right; margin-left: 5%;"/>
         <h2>Introduction</h2>
         <p>Freshwater ecosystems include all bodies of water that contain less than 1% salt concentration. These can include rivers, lakes, ponds, wetlands, and other aquatic environments. Freshwater ecosystems are incredibly diverse, and support a wide variety of plants and animals.</p>
       </section>
@@ -121,15 +147,37 @@
         <p>Conserving freshwater ecosystems is essential for maintaining biodiversity and ensuring that these environments continue to provide important ecosystem services. Conservation efforts can include protecting wetlands and other critical habitats, reducing pollution from agriculture and industry, and promoting sustainable water use practices. Public education and awareness campaigns can also help to raise awareness about the importance of freshwater ecosystems and the need to protect them.</p>
       </section>
 
+      <section id="importance">
+        <h2>Importance of the Freshwater Ecosystem</h2>
+        <p>Freshwater ecosystems provvital to the survival of countless species and are essential for human well-being. By understanding their importance and taking steps to protect them, we can ensure that these valuable ecosystems continue to provide essential services and support biodiversity for generations to come.</p>
+      </section>
+
+      <section id="fun-facts">
+        <h2>Fun Facts about the Freshwater Ecosystem</h2>
+        <ul>
+          <li>Freshwater makes up only about 2.5% of all water on Earth, yet it supports a disproportionately high amount of biodiversity.</li>
+          <li>Wetlands, though covering only 6% of Earth's surface, provide habitat for about 40% of all species.</li>
+          <li>A single wetland can filter and purify water at a rate equivalent to expensive treatment plants, providing this service naturally.</li>
+        </ul>
+      </section>
+
       <section id="conclusion">
         <h2>Conclusion</h2>
         <p>Freshwater ecosystems are incredibly diverse and support a wide variety of plants and animals. However, human activities have had a significant impact on these environments, and conservation efforts are essential for ensuring their long-term health and sustainability. By protecting freshwater ecosystems, we can help to maintain biodiversity and ensure that these environments continue to provide important ecosystem services for generations to come.</p>
       </section>
+
+      <section id="references">
+        <h2>References</h2>
+        <ul>
+          <li><a href="https://www.worldwildlife.org/habitats/freshwater-habitat">World Wildlife Fund - Freshwater Habitats</a></li>
+          <li><a href="https://www.usgs.gov/special-topic/water-science-school/science/freshwater-ecosystems">USGS - Freshwater Ecosystems</a></li>
+          <li><a href="https://www.iucn.org/theme/freshwater">IUCN - Freshwater Conservation</a></li>
+        </ul
+      </section>
     </main>
 
-    <footer>
-      <p>&copy;2023 Piyush Anand, Baibhav Sinha, Khushi Sinha.</p>
+    <footer id="footer">
+      <p>&copy;2023 All Rights Reserved<br/>Piyush Anand, Baibhav Sinha, Khushi Sinha.</p>
     </footer>
-
   </body>
 </html>

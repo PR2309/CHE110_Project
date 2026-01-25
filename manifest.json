@@ -1,0 +1,69 @@
+{
+    "name": "Ecosystem Types & Environmental Education Project",
+    "short_name": "Ecosystem Project",
+    "description": "A comprehensive educational website featuring 23 pages covering 13 different types of ecosystems including terrestrial (Forest, Grassland, Desert, Mountain, Alpine, Tundra, Polar), aquatic (Freshwater, Marine, Estuarine), and human-made (Agricultural, Aquaculture, Urban, Industrial, Greenhouse) ecosystems. Each ecosystem page includes climate information, flora, fauna, threats, conservation efforts, importance, and fun facts. Additional resources include benefits, hazards, prevention strategies, and a glossary of key terms.",
+    "start_url": "/CHE110_Project/index.html",
+    "scope": "/CHE110_Project/",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#14532d",
+    "orientation": "portrait",
+    "lang": "en-IN",
+    "categories": ["education", "environment", "ecology"],
+    "screenshots": [
+        {
+            "src": "./img/logo.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./img/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "icons": [
+        {
+            "src": "./img/logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Ecosystem Types",
+            "short_name": "Types",
+            "description": "Browse all 13 ecosystem types",
+            "url": "/CHE110_Project/Pages/Types.html",
+            "icons": [{ "src": "./img/logo.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Forest Ecosystem",
+            "short_name": "Forest",
+            "description": "Explore forest ecosystems",
+            "url": "/CHE110_Project/Pages/Forest-Ecosystem.html",
+            "icons": [{ "src": "./img/logo.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Marine Ecosystem",
+            "short_name": "Marine",
+            "description": "Discover marine ecosystems",
+            "url": "/CHE110_Project/Pages/Marine-Ecosystem.html",
+            "icons": [{ "src": "./img/logo.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Key Terms",
+            "short_name": "Terms",
+            "description": "Ecosystem glossary and definitions",
+            "url": "/CHE110_Project/Pages/Key-Terms.html",
+            "icons": [{ "src": "./img/logo.png", "sizes": "192x192" }]
+        }
+    ]
+}

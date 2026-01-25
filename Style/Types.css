@@ -1,13 +1,13 @@
 body{
-    background-image: url(../img/TypesBG.jpg);
-    background-repeat: none;
+    background-image: url(../img/TypesBG.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     /* background-color: rgb(56, 55, 55); */
 }
 
 section>ul>li{
-    width: 19.5rem;
+    width: 20rem;
 }
 section>ul{
     display: flex;
@@ -18,7 +18,10 @@ section>ul>li>a{
     width:100vw;
 }
 section>ul>li>a:hover{
-    color:grey
+    color:rgb(0, 0, 0);
+    font-style: oblique;
+    font-weight: bold;
+    background-clip:border-box;
 }
 section>ul>li>a>img{
     width:20px;
@@ -27,27 +30,29 @@ section>ul>li>a>img{
     transform-origin:top left;
     border-radius: 5px;
     float:right;
+    transition: transform 0.4s ease-in-out;
 }
 section>ul>li>a>img:hover{
     border-radius: 0px;
     /* width: 20vw; */
-    transform: scale(10); 
-    transition: 0.3s ease-in-out;
+    transform: scale(30); 
 }
-
 section>ul>li::before{
     content:"★";
     display: inline-block;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
+    line-height: 0.5rem;
 }
-
 section>ul>li:hover::before{
     transform: rotate(180deg);
-    color:grey
+    transform-origin: center;
+    color:rgb(0, 0, 0)
 }
+
 p{
     text-align: justify;
 }
+
 main{
     background-color: hsl(39, 77%, 83%,0.5);
     border-radius: 50px;
@@ -59,10 +64,14 @@ main{
     padding-bottom: 5rem ;
     padding: 50px;
 }
+
 @media (max-width: 800px) {
     /* section{
         font-size: medium;
     } */
+    section>ul>li{
+        width: auto;
+    }
     section>ul>li>a>img{
         transform-origin: top right;
     }

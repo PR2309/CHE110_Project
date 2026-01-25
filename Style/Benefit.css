@@ -1,6 +1,6 @@
 body{
     background-image: url(../img/BenefitsBG.webp);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     /* background-color: rgb(56, 55, 55); */
@@ -20,5 +20,3 @@ main{
     backdrop-filter: blur(10px);
     padding-bottom: 5rem ;
 }
-
-

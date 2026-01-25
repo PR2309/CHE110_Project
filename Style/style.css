@@ -1,11 +1,18 @@
 *{
     scrollbar-width: none;
+    outline: none !important;
 }
+
 html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden !important; /* good fallback */
 }
+main{
+    min-height: 80vh;
+    min-width: 70vw;
+}
+
 header{
     background-color: rgba(67, 228, 139, 0.769);
     padding: 0.5rem;
@@ -17,17 +24,16 @@ header{
     font-weight: bold;
     text-align: center;
     font-family: Arial, sans-serif;
-
-
 }
+
 nav{
-    margin: 9rem 0 5rem 0;
     display: flex;
-    background: rgba(101, 101, 101, 0.737);
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background: rgba(101, 101, 101, 0.737);
     padding: 0.5rem 0;
+    margin: 8.9rem 0 5rem 0 !important;
     overflow: auto;
     scrollbar-width: none;
 }
@@ -43,7 +49,6 @@ nav>ul>li>a:hover{
     background-color: lightgrey;
     color: black;
 }
-
 ul>li{
     list-style: none;
 }
@@ -56,6 +61,18 @@ nav>ul>li>a{
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
     padding: 0.5rem 1rem;
+}
+
+img {
+    -webkit-user-drag: none;
+    user-drag: none;
+    pointer-events: auto; /* keep hover & click working */
+}
+
+button {
+    all: unset;              /* nukes UA styles */
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 section{
@@ -74,6 +91,100 @@ footer, footer *{
     text-align: center;
     text-align: center;
 }
+
+.PageTopImg{
+    float: right;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin: 0 0.2rem;
+    transition: 0.5s ease-in-out;
+}
+.PageTopImg:hover{
+    box-shadow: 0 4px 80px rgb(0, 0, 0);
+    width:50%;
+    height:auto;
+    border-radius: 50px;
+    filter: blur(10%);
+    transition: ease-in-out 0.5s;
+}
+
+#idBtn {
+    background: none;
+    border: none;
+    padding: 0;
+    appearance: none;
+    -webkit-appearance: none;
+}
+#idBtn{
+    position: fixed;
+    z-index: 1;
+    border-radius: 10rem 0 0 10rem;
+    text-decoration: none;
+    color: white;
+    background-image: radial-gradient(rgba(141, 139, 139, 0.763), rgba(207, 207, 207, 0.763));
+    padding: 0.9rem 1.1rem;
+    top: 40px;
+    right: 4vw;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform-origin: right;
+    margin-top:0.2rem;
+    font-weight:bold;
+    border-radius: 10rem;
+    font-size: 1.2rem;
+    border: none;
+}
+#idBtn:hover, #idBtn:focus{
+    background-image: radial-gradient(rgba(0, 255, 255, 0.605), rgba(0, 191, 255, 0.605));
+}
+#idBtn:hover{
+    z-index:2;
+    margin-top:0rem;
+    padding: 1.1rem 1.3rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.811);
+    /* transform: scale(1.05); */
+}
+#idList{
+    position:fixed;
+    top:100px;
+    right:4vw;
+    margin:0;
+    padding: 0;
+    max-width:fit-content;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    overflow: auto;
+    z-index:5;
+    display:none;
+    max-height: 50vh;
+}
+#idBtn:hover + #idList,
+#idBtn:focus + #idList,
+#idList:hover{
+    display:block;
+}
+#idList li a{
+    display: block;
+    padding: 12px 16px;
+    color:#222;
+    text-decoration: none;
+    font-size: 0.95em;
+    transition: all 0.3s ease-in-out;
+}
+#idList li a:hover{
+    background-color: hsl(197, 100%, 50%,0.3);
+    color: #000000;
+}
+
+@media (max-width: 800px) {
+    .PageTopImg{
+        float: none !important;
+        width: 80%;
+        max-height: 800px;
+    }
+}
+
 
 @media (max-width: 800px) {
     section{

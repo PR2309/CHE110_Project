@@ -1,100 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Generated: 2025-11-21 (updated to include all current Pages files) -->
+  <!-- Generated: 2026-01-25 (updated to include all current Pages files) -->
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/About.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://pr2309.github.io/CHE110_Project/Pages/Agricultural-Ecosystem.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://pr2309.github.io/CHE110_Project/Pages/Alpine-Ecosystem.html</loc>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://pr2309.github.io/CHE110_Project/Pages/Aquaculture-Ecosystem.html</loc>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Benefits.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Desert-Ecosystem.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://pr2309.github.io/CHE110_Project/Pages/Estuarine-Ecosystem.html</loc>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Forest-Ecosystem.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Freshwater-Ecosystem.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Grassland-Ecosystem.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://pr2309.github.io/CHE110_Project/Pages/Greenhouse-Ecosystem.html</loc>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Hazards.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Industrial-Ecosystem.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://pr2309.github.io/CHE110_Project/Pages/Key-Terms.html</loc>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Marine-Ecosystem.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/More.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
+    <loc>https://pr2309.github.io/CHE110_Project/Pages/Mountain-Ecosystem.html</loc>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://pr2309.github.io/CHE110_Project/Pages/Polar-Ecosystem.html</loc>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Prevention.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Tundra-Ecosystem.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Types.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://pr2309.github.io/CHE110_Project/Pages/Urban-Ecosystem.html</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.60</priority>
   </url>
 </urlset>

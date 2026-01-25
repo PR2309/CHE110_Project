@@ -1,6 +1,6 @@
 body{
-    background-image: url(../img/index2BG.png);
-    background-repeat: none;
+    background-image: url(../img/index2BG.webp);
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     /* background-color: rgb(56, 55, 55); */
@@ -16,8 +16,8 @@ p{
     color: white;
     background-image: radial-gradient(rgba(141, 139, 139, 0.763), rgba(207, 207, 207, 0.763));
     padding: 0.9rem 1.1rem;
-    top: 5%;
-    left: 4%;
+    top: 40px;
+    left: 4vw;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }

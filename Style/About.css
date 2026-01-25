@@ -1,13 +1,9 @@
 body{
     background-image: url(../img/AboutBG.webp);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     /* background-color: rgb(56, 55, 55); */
-}
-
-details>p{
-    text-align: justify;
 }
 
 main{
@@ -23,18 +19,19 @@ main{
 }
 
 main>section:first-of-type>p{
-    text-align: justify;
     padding-left: 40px;
+}
+
+details>p,
+main>section:first-of-type>p{
+    text-align: justify;
 }
 
 @keyframes begin {
     from{
         opacity:0%;
-        overflow: hidden;
     }
     to{
         opacity: 100%;
-        overflow: auto;
     }
 }
-

@@ -14,7 +14,7 @@
 		<!-- Custom CSS & JS files-->
 		<link rel="stylesheet" href="../Style/style.css" data-comment="Custom Stylesheets"/>
 		<link rel="stylesheet" href="../Style/About.css" data-comment="Custom Stylesheets"/>
-        <!-- <script src="app.js" defer data-comment=" Custom JavaScript"></script> -->
+        <!-- <script src="./app.js" defer data-comment=" Custom JavaScript"></script> -->
 
 		<!-- Favicon -->
 		<link rel="icon" href="../img/logo.png" type="image/svg+xml" data-comment="Favicon for modern browsers (SVG format)"/>
@@ -28,11 +28,12 @@
 		<meta name="keywords" content="ecosystem project, CHE110, about our team, environmental awareness, sustainability, student project, ecosystem education" data-comment="Keywords of web page for SEO"/>
 		<meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self';" data-comment="Prevents from being embedded in an iframe to avoid clickjacking attacks"/>
 		<meta name="robots" content="index, follow" data-comment="To tell crawlers to crawl in this page"/>
-		<!-- <link rel="manifest" href="/manifest.json" data-comment="For SEO and Progressive Web Apps"/> -->
+		<link rel="manifest" href="../manifest.json" data-comment="An information file for Browser and Progressive Web Apps"/>
 		<link rel="canonical" href="https://pr2309.github.io/CHE110_Project/Pages/About.html" data-comment="tells the main link of site avoiding multiple ranking of sublinks"/>
 
 		<!-- SEO Multilingual Versions Tags -->
 		<link rel="alternate" hreflang="en" href="https://pr2309.github.io/CHE110_Project/Pages/About.html"/>
+		<link rel="alternate" hreflang="x-default" href="https://pr2309.github.io/CHE110_Project/Pages/About.html"/>
 		<!-- <link rel="alternate" hreflang="hi(main_Language_code)" href="URL_of_main_site"/> -->
 
 		<!-- OpenGraph Meta Tags - For Social Media Previews -->
@@ -67,79 +68,75 @@
 			<h3><i>About Our Team</i></h3>
 		</header>
 
-		<nav>
+		<nav id="navbar">
 			<ul>
 				<li><a href="../index.html">Home</a></li>
-				<li><a href="Benefits.html">Benefits</a></li>
-				<li><a href="Hazards.html">Hazards</a></li>
-				<li><a href="Types.html">Types</a></li>
-				<li><a href="Prevention.html">Prevention</a></li>
-				<li><a href="About.html">About</a></li>
+				<li><a href="./Benefits.html">Benefits</a></li>
+				<li><a href="./Hazards.html">Hazards</a></li>
+				<li><a href="./Types.html">Types</a></li>
+				<li><a href="./Prevention.html">Prevention</a></li>
+				<li><a href="./Key-Terms.html">Key&nbsp;Terms</a></li>
+				<li><a href="./About.html">About</a></li>
 			</ul>
 		</nav>
 
+		<button id="idBtn" title="Contents">🗒</button>
+        <ul id="idList">
+            <li><a href="#navbar" title="Back to navigation">Index</a></li>
+            <li><a href="#about" title="About US">Who We Are</a></li>
+            <li><a href="#mission" title="Misson">Our Mission</a></li>
+            <li><a href="#team" title="Team">Meet the Team</a></li>
+            <li><a href="#purpose" title="Purpose">Purpose of Website</a></li>
+            <li><a href="#footer" title="Author and Credits">Credits</a></li>
+        </ul>
+
 		<main>
-			<section style="margin-top: 40px;">
+			<section id="about" style="margin-top: 40px;">
 				<h2>Who We Are</h2>
-				<p>
-					We are a team of three undergraduate students working together on this CHE110 project to spread awareness about ecosystems, their functions, and the growing environmental challenges of our world. Our goal is to present clear, engaging, and well-researched information to help students and readers understand how ecosystems work and how we can protect them.
-				</p>
+				<p>We are a team of three undergraduate students working together on this CHE110 project to spread awareness about ecosystems, their functions, and the growing environmental challenges of our world. Our goal is to present clear, engaging, and well-researched information to help students and readers understand how ecosystems work and how we can protect them.</p>
 			</section>
 
-			<section>
+			<section id="mission">
 				<h2>Our Mission</h2>
-				<p>
-					The aim of our project is to educate people about the importance of ecosystems, highlight their services, identify threats, and promote sustainable practices. Through this website, we hope to encourage responsible behavior and inspire others to take small yet meaningful steps toward environmental conservation.
-				</p>
+				<p>The aim of our project is to educate people about the importance of ecosystems, highlight their services, identify threats, and promote sustainable practices. Through this website, we hope to encourage responsible behavior and inspire others to take small yet meaningful steps toward environmental conservation.</p>
 			</section>
 
-			<section>
+			<section id="team">
 				<h2>Meet the Team</h2>
 				<details>
 					<summary>Member 1</summary>
 					<h3>Piyush Anand</h3>
-					<p>
-						Piyush contributed to the research, website layout, and content development. He worked on organizing the information and ensuring that scientific concepts were explained in simple, understandable language.
-					</p>
+					<p>Piyush contributed to the research, website layout, and content development. He worked on organizing the information and ensuring that scientific concepts were explained in simple, understandable language.</p>
 				</details>
 
 				<details>
 					<summary>Member 2</summary>
 					<h3>Baibhav</h3>
-					<p>
-						Baibhav focused on designing the navigation flow, preparing visual elements, and managing the structure of the web pages. He helped format the content and maintain clarity across the entire project.
-					</p>
+					<p>Baibhav focused on designing the navigation flow, preparing visual elements, and managing the structure of the web pages. He helped format the content and maintain clarity across the entire project.</p>
 				</details>
 
 				<details>
 					<summary>Member 3</summary>
 					<h3>Khushi Sinha</h3>
-					<p>
-						Khushi played a major role in writing, editing, and verifying the accuracy of ecosystem-related content. She ensured that each section of the project was well-organized and aligned with the CHE110 requirements.
-					</p>
+					<p>Khushi played a major role in writing, editing, and verifying the accuracy of ecosystem-related content. She ensured that each section of the project was well-organized and aligned with the CHE110 requirements.</p>
 				</details>
 			</section>
 
-			<section>
+			<section id="purpose">
 				<h2>Why We Created This Website</h2>
-				<p>
-					With increasing pollution, climate change, species extinction, and resource depletion, understanding ecosystems is more important than ever. Through this project, we aim to:
-				</p>
+				<p>With increasing pollution, climate change, species extinction, and resource depletion, understanding ecosystems is more important than ever. Through this project, we aim to:</p>
 				<ul>
 					<li>Explain ecosystem components and their interactions</li>
 					<li>Highlight the benefits and services ecosystems provide</li>
 					<li>Discuss major hazards and threats</li>
 					<li>Promote preventive and sustainable practices</li>
 				</ul>
-				<p>
-					We hope this website helps you learn something new and encourages you to think more deeply about our environment.
-				</p>
+				<p>We hope this website helps you learn something new and encourages you to think more deeply about our environment.</p>
 			</section>
 		</main>
 
-		<footer>
-			<p>&copy; 2023 Piyush Anand, Baibhav Sinha, Khushi Sinha</p>
+		<footer id="footer">
+			<p>&copy;2023 All Rights Reserved<br/>Piyush Anand, Baibhav Sinha, Khushi Sinha.</p>
 		</footer>
-
 	</body>
 </html>

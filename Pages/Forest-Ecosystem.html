@@ -8,13 +8,13 @@
         <meta name="theme-color" content="#ccccc7" data-comment="Used by Chrome, Firefox OS, and opera to change the browser address bar"/>
         <meta name="msapplication-TileColor" content="#00aba9" data-comment="Used by windows 8, 8.1, and 10 for the start menu tiles"/>
 		<meta http-equiv="refresh" content="360" data-comment="Meta tag to refresh the page every 360 seconds=1Hour"/>
-        
+
         <title>Forest Ecosystem</title>
 
         <!-- Custom CSS & JS files-->
         <link rel="stylesheet" href="../Style/style.css" data-comment="Custom Stylesheets"/>
         <link rel="stylesheet" href="../Style/TypesPages.css" data-comment="Custom Stylesheets"/>
-        <!-- <script src="app.js" defer data-comment=" Custom JavaScript"></script> -->
+        <!-- <script src="./app.js" defer data-comment=" Custom JavaScript"></script> -->
 
         <!-- Favicon -->
         <link rel="icon" href="../img/logo.png" type="image/svg+xml" data-comment="Favicon for modern browsers (SVG format)"/>
@@ -28,11 +28,12 @@
         <meta name="keywords" content="forest ecosystem, types of forests, forest conservation, forest benefits, deforestation, environmental protection" data-comment="Keywords of web page for SEO"/>
         <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self';" data-comment="Prevents from being embedded in an iframe to avoid clickjacking attacks"/>
 		<meta name="robots" content="index, follow" data-comment="To tell crawlers to crawl in this page"/>
-		<!-- <link rel="manifest" href="/manifest.json" data-comment="For SEO and Progressive Web Apps"/> -->
+		<link rel="manifest" href="../manifest.json" data-comment="An information file for Browser and Progressive Web Apps"/>
 		<link rel="canonical" href="https://pr2309.github.io/CHE110_Project/Pages/Forest-Ecosystem.html" data-comment="tells the main link of site avoiding multiple ranking of sublinks"/>
 
 		<!-- SEO Multilingual Versions Tags -->
 		<link rel="alternate" hreflang="en" href="https://pr2309.github.io/CHE110_Project/Pages/Forest-Ecosystem.html"/>
+		<link rel="alternate" hreflang="x-default" href="https://pr2309.github.io/CHE110_Project/Pages/Forest-Ecosystem.html"/>
 		<!-- <link rel="alternate" hreflang="hi(main_Language_code)" href="URL_of_main_site"/> -->
 
 		<!-- OpenGraph Meta Tags - For Social Media Previews -->
@@ -41,7 +42,7 @@
         <meta property="og:url" content="https://pr2309.github.io/CHE110_Project/Pages/Forest-Ecosystem.html" data-comment="site_url"/>
 		<meta property="og:type" content="website" data-comment="website_content_type"/>
 		<meta property="og:site_name" content="Ecosystem Project" data-comment="site_name"/>
-		<meta property="og:image" content="https://pr2309.github.io/CHE110_Project/img/ForestBG.png" data-comment="preview_image_link - visble when shared"/>
+		<meta property="og:image" content="https://pr2309.github.io/CHE110_Project/img/ForestBG.webp" data-comment="preview_image_link - visble when shared"/>
 		<meta property="og:image:alt" content="Forest Ecosystem Page Banner" data-comment="Alternate text if preview isn't displayed"/>
 		<meta property="og:image:width" content="1200" data-comment="width of preview image 1200px recommended"/>
 		<meta property="og:image:height" content="630" data-comment="height of preview image 630px recommended"/>
@@ -53,50 +54,76 @@
         <meta name="twitter:card" content="summary_large_image" data-comment="Tells the type of presentation, eg: summary, summary_large_image, app, player"/>
         <meta name="twitter:title" content="Forest Ecosystem – Types, Importance & Conservation Explained" data-comment="Website Title"/>
         <meta name="twitter:description" content="Understand how forest ecosystems work, their types, benefits to humans, major environmental threats, and the need for conservation." data-comment="Short description of web page"/>
-        <meta name="twitter:image" content="https://pr2309.github.io/CHE110_Project/img/ForestBG.png" data-comment="preview image url"/>
+        <meta name="twitter:image" content="https://pr2309.github.io/CHE110_Project/img/ForestBG.webp" data-comment="preview image url"/>
         <meta name="twitter:image:alt" content="Forest Ecosystem Page Banner" data-comment="Alternate text if preview isn't displayed"/>
         <meta name="twitter:image:width" content="1200" data-comment="width of preview image 1200px recommended"/>
         <meta name="twitter:image:height" content="630" data-comment="height of preview image 630px recommended"/>
         <!-- <meta name="twitter:site" content="@YourTwitterHandle" data-comment="Twitter handle of website"/> -->
         <!-- <meta name="twitter:creator" content="@YourTwitterHandle" data-comment="Twitter handle of content creator"/> -->
     </head>
-    <body style="background-image: url(../img/ForestBG.png);">
+
+    <body style="background-image: url(../img/ForestBG.webp);">
         <header>
             <h1><strong>Ecosystem</strong></h1>
             <h3>Forest&nbsp;Ecosystem<br/><small><code>(Types&nbsp;of&nbsp;Ecosystem)</code></small></h3>
         </header>
 
-        <nav>
+        <nav id="navbar">
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="Benefits.html">Benefits</a></li>
-                <li><a href="Hazards.html">Hazards</a></li>
-                <li><a href="Types.html">Types</a></li>
-                <li><a href="Prevention.html">Prevention</a></li>
-                <li><a href="About.html">About</a></li>
+                <li><a href="./Benefits.html">Benefits</a></li>
+                <li><a href="./Hazards.html">Hazards</a></li>
+                <li><a href="./Types.html">Types</a></li>
+                <li><a href="./Prevention.html">Prevention</a></li>
+                <li><a href="./Key-Terms.html">Key&nbsp;Terms</a></li>
+                <li><a href="./About.html">About</a></li>
             </ul>
         </nav>
+
         <a href="./Types.html" id="backBtn" title="All Types">↩</a>
-        <a href="#" id="menuBtn" title="All Types">☰</a>
+        <button id="menuBtn" title="All Types">☰</button>
         <ul id="menuList">
             <li><a href="./Grassland-Ecosystem.html" title="Grassland Ecosystem">Grassland Ecosystem</a></li>
             <li><a href="./Desert-Ecosystem.html" title="Desert Ecosystem">Desert Ecosystem</a></li>
+            <li><a href="./Mountain-Ecosystem.html" title="Mountain Ecosystem">Mountain Ecosystem</a></li>
+            <li><a href="./Alpine-Ecosystem.html" title="Alpine Ecosystem">Alpine Ecosystem</a></li>
             <li><a href="./Tundra-Ecosystem.html" title="Tundra Ecosystem">Tundra Ecosystem</a></li>
+            <li><a href="./Polar-Ecosystem.html" title="Polar Ecosystem">Polar Ecosystem</a></li>
             <li><a href="./Freshwater-Ecosystem.html" title="Freshwater Ecosystem">Freshwater Ecosystem</a></li>
             <li><a href="./Marine-Ecosystem.html" title="Marine Ecosystem">Marine Ecosystem</a></li>
+            <li><a href="./Estuarine-Ecosystem.html" title="Estuarine Ecosystem">Estuarine Ecosystem</a></li>
             <li><a href="./Agricultural-Ecosystem.html" title="Agriculture Ecosystem">Agricultural Ecosystem</a></li>
+            <li><a href="./Aquaculture-Ecosystem.html" title="Aquaculture Ecosystem">Aquaculture Ecosystem</a></li>
+            <li><a href="./Greenhouse-Ecosystem.html" title="Greenhouse Ecosystem">Greenhouse Ecosystem</a></li>
             <li><a href="./Urban-Ecosystem.html" title="Urban Ecosystem">Urban Ecosystem</a></li>
             <li><a href="./Industrial-Ecosystem.html" title="Industrial Ecosystem">Industrial Ecosystem</a></li>
         </ul>
 
+        <button id="idBtn" title="Contents">🗒</button>
+        <ul id="idList">
+            <li><a href="#navbar" title="Back to navigation">Index</a></li>
+            <li><a href="#overview" title="Overview">Overview</a></li>
+            <li><a href="#types" title="Types of Forests">Types</a></li>
+            <li><a href="#flora" title="Flora of Forest">Flora</a></li>
+            <li><a href="#fauna" title="Fauna of Forest">Fauna</a></li>
+            <li><a href="#benefits" title="Benefits of Forest">Benefits</a></li>
+            <li><a href="#threats" title="Threats to Forest">Threats</a></li>
+            <li><a href="#conservation" title="Conservation of Forest">Conservation</a></li>
+            <li><a href="#importance" title="Importance of Forest">Importance</a></li>
+            <li><a href="#fun-facts" title="Fun Facts about Forest">Fun Facts</a></li>
+            <li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
+            <li><a href="#references" title="References">References</a></li>
+            <li><a href="#footer" title="Author and Credits">Credits</a></li>
+        </ul>
+
         <main><br/><br/>
-            <section>
-                <img src="../img/Forest_Ecosystem.png" alt="Forest Ecosystem" width="400" height="200" style="float: right; margin-left: 5%;"/>
+            <section id="overview">
+                <img src="../img/Forest_Ecosystem.webp" alt="Forest Ecosystem" style="margin-left: 5%;"/>
                 <h2>Overview</h2>
                 <p>The forest ecosystem is a complex and diverse system that provides a range of benefits to human society. Forests are home to a wide range of plant and animal species, as well as providing important resources such as wood, food, and medicine.</p>
             </section>
 
-            <section>
+            <section id="types">
                 <h2>Types of Forests</h2>
                 <p>There are many different types of forests around the world, each with their own unique characteristics. Some common types of forests include:</p>
                 <ul>
@@ -108,8 +135,18 @@
                 </ul>
             </section>
 
-            <section>
-                <h2>Forest Benefits</h2>
+            <section id="flora">
+                <h2>Flora</h2>
+                <p>Forest ecosystems are dominated by trees of various sizes and species, including deciduous, coniferous, and tropical varieties. The understory contains shrubs, ferns, and herbaceous plants that thrive in the shaded forest environment. These plants play a crucial role in the forest food web and nutrient cycling.</p>
+            </section>
+
+            <section id="fauna">
+                <h2>Fauna</h2>
+                <p>Forests support an incredible diversity of wildlife, from large mammals like deer, bears, and wolves to smaller creatures like squirrels, rabbits, and numerous bird species. Insects, amphibians, and reptiles also inhabit forest ecosystems, playing vital roles in pollination, decomposition, and pest control. Each layer of the forest supports different animal communities.</p>
+            </section>
+
+            <section id="benefits">
+                <h2>Benefits of Forest</h2>
                 <p>Forests provide a range of benefits to human society, including:</p>
                 <ul>
                     <li>Wood and other forest products</li>
@@ -120,8 +157,8 @@
                 </ul>
             </section>
 
-            <section>
-                <h2>Forest Threats</h2>
+            <section id="threats">
+                <h2>Threats to Forest</h2>
                 <p>Forests around the world are under threat from a range of factors, including:</p>
                 <ul>
                     <li>Deforestation</li>
@@ -132,8 +169,8 @@
                 </ul>
             </section>
 
-            <section>
-                <h2>Forest Conservation</h2>
+            <section id="conservation">
+                <h2>Conservation of Forest</h2>
                 <p>To protect and preserve forest ecosystems, it is essential to take conservation measures. Some common conservation strategies include:</p>
                 <ul>
                     <li>Protected areas</li>
@@ -143,10 +180,38 @@
                     <li>Education and awareness</li>
                 </ul>
             </section>
+
+            <section id="importance">
+                <h2>Importance of the Forest Ecosystem</h2>
+                <p>Forests are essential for life on Earth, producing the oxygen we breathe and storing massive amounts of carbon, helping regulate our climate. They provide critical habitat for millions of species, support human livelihoods through timber and non-timber products, and play a vital role in water filtration and soil conservation.</p>
+            </section>
+
+            <section id="fun-facts">
+                <h2>Fun Facts about the Forest Ecosystem</h2>
+                <ul>
+                    <li>Forests cover approximately 30% of the Earth's land surface and contain about 80% of all terrestrial species.</li>
+                    <li>A mature forest can produce enough oxygen for 18 people per year.</li>
+                    <li>Some tree species can live for thousands of years, making them among the oldest living organisms on Earth.</li>
+                </ul>
+            </section>
+
+            <section id="conclusion">
+                <h2>Conclusion</h2>
+                <p>Forest ecosystems are vital to the health of our planet, providing essential services and supporting incredible biodiversity. By understanding the importance of forests and taking steps to protect them, we can help ensure that these ecosystems continue to thrive for generations to come.</p>
+            </section>
+
+            <section id="references">
+                <h2>References</h2>
+                <ul>
+                    <li><a href="https://www.worldwildlife.org/habitats/forest-habitat">World Wildlife Fund - Forest Habitats</a></li>
+                    <li><a href="https://www.fao.org/forests/">Food and Agriculture Organization - Forests</a></li>
+                    <li><a href="https://www.britannica.com/science/forest">Britannica - Forest Ecosystems</a></li>
+                </ul>
+            </section>
         </main>
 
-        <footer>
-            <p>&copy; 2023 Piyush Anand, Baibhav Sinha, Khushi Sinha</p>
+        <footer id="footer">
+            <p>&copy;2023 All Rights Reserved<br/>Piyush Anand, Baibhav Sinha, Khushi Sinha.</p>
         </footer>
     </body>
 </html>

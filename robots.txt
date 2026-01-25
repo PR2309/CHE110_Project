@@ -1,0 +1,17 @@
+# Robots.txt for CHE110 Ecosystem Project
+# Author: Piyush Anand
+# Website: https://pr2309.github.io/CHE110_Project/
+
+User-agent: *
+Allow: /
+
+# Block unnecessary system or backup files (good practice)
+Disallow: /*.json$
+Disallow: /*.log$
+Disallow: /*.bak$
+
+# Allow images for SEO & social previews
+Allow: /img/
+
+# Sitemap location
+Sitemap: https://pr2309.github.io/CHE110_Project/sitemap.xml

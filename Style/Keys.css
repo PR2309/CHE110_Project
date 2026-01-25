@@ -1,0 +1,76 @@
+body{
+    background-image: url(../img/KeysBG.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgb(56, 55, 55); */
+}
+
+dl{
+    margin-left: 5vw;
+}
+
+dt>a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding-left: 3px;
+    position: relative; /* stays near the term */
+    color: black;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+dt:hover,
+dt:hover::before,
+dt>a:hover{
+    color: hsl(240, 80%, 28%);
+}
+dt::before{
+    content: "➥";
+    height: 2rem;
+    padding-right: 10px;
+}
+dt:hover::before{
+    content: "➤";
+}
+dt>a:hover{
+    transform: rotate(-90deg) scale(1.7);
+    cursor: pointer;
+}
+dt>strong{
+    font-size: 1.5rem;
+}
+
+/* dt::after{
+    content: "🔎︎";
+    height:2rem;
+    padding-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+dt:hover::after{
+    content: "🔍︎";
+    transform: rotate(90deg);
+} */
+
+dd{
+    margin-bottom: 1.5rem;
+    margin-left: 4rem;
+    font-style: italic;
+}
+
+main{
+    background-color: hsl(39, 77%, 83%,0.5);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto 2.5rem;
+    backdrop-filter: blur(10px);
+    padding-bottom: 5rem ;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
