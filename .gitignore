@@ -1,0 +1,27 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Node / build artifacts (ignore only if accidentally created)
+node_modules/
+dist/
+build/
+
+# Cache folders
+.cache/
+
+*.class
+*.exe
+tempCodeRunnerFile.*
